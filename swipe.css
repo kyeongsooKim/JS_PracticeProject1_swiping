@@ -1,0 +1,128 @@
+
+
+html{
+  line-height: 1.15;
+  /*font-family: sans-serif;*/
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  margin: 0px; 
+}
+.form {
+
+  position: relative;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-top: 70vh;
+}
+
+.tab-group {
+  list-style: none;
+  padding:0;
+}
+
+.tab-group li a {
+  display:block;
+  text-decoration: none; 
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  color:rgba(204, 0, 255, 1);
+  font-size: 20px;
+  /*font-weight:bold;*/
+  width: 100%; 
+  text-align: center;
+  transition: .5s ease;
+
+
+}
+
+.tab-group .active a {
+  background: rgba(204, 0, 255, 1);
+  color: white;
+  box-shadow: 0 3px 9px 1px rgba(19, 35, 47, 0.3);
+  /*font-weight:bold;*/
+}
+
+/*
+.tab-group li a:hover {
+  background: #179b77;
+  color: #ffffff;
+}
+
+
+
+*/
+
+#dummy_page {
+
+  position: absolute;
+  top:0;
+  left:-100%;
+  width: 100vw;
+  height: 100vh;
+  background: grey;
+}
+
+#p1 {
+
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+}
+
+#p1>h1 {
+  padding-top : 20vh;
+  font-size : 10vh; 
+  text-align: center;
+}
+#p1>p {
+  font-size : 3vh; 
+  padding-right:10%;
+  padding-left:10%;
+  text-align: center;
+}
+
+#p2  {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100vw;
+  height: 100vh;
+  background:rgba(204, 0, 255, 0.8);
+}
+
+#p3 {
+  position: absolute;
+  top: 0;
+  left: 200%;
+  width: 100vw;
+  height: 100vh;
+  background:rgba(204, 0, 255, 0.7);
+}
+
+#p4  {
+  position: absolute;
+  top: 0;
+  left: 300%;
+  width: 100vw;
+  height: 100vh;
+  background:rgba(255, 52, 102, 0.5);
+}
+
+#p5  {
+  position: absolute;
+  top: 0;
+  left: 400%;
+  width: 100vw;
+  height: 100vh;
+  background:rgba(255, 52, 102, 0.6);
+}
+
+

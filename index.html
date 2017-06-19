@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Twirl</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"> <!--disable zooming for mobile app-->
+	<link href="swipe.css" type="text/css" rel ="stylesheet">
+</head>
+<body>   <!--first div is dummy page which prevents some random bug-->
+	<div class ="intro_page" 
+		 id = "dummy_page"
+		 ontouchstart="handleTouchStart(event)"
+		 ontouchmove="handleTouchMove(event)"
+		 ontouchend="handleTouchEnd(event)">
+	</div>
+	<div class ="intro_page"
+		 id = "p1"
+		 ontouchstart="handleTouchStart(event)"
+		 ontouchmove="handleTouchMove(event)"
+		 ontouchend="handleTouchEnd(event)">
+		 
+		 <h1>JS Swiping Test</h1>
+		 <p>Please swipe to the left<br>to move to the next page</p>
+	</div>
+
+	<div class ="intro_page"
+		 id = "p2"
+		 ontouchstart="handleTouchStart(event)"
+		 ontouchmove="handleTouchMove(event)"
+		 ontouchend="handleTouchEnd(event)">
+	</div>
+
+	<div class ="intro_page"
+		 id = "p3"
+		 ontouchstart="handleTouchStart(event)"
+		 ontouchmove="handleTouchMove(event)"
+		 ontouchend="handleTouchEnd(event)">
+	</div>
+
+	<div class ="intro_page"
+		 id = "p4"
+		 ontouchstart="handleTouchStart(event)"
+		 ontouchmove="handleTouchMove(event)"
+		 ontouchend="handleTouchEnd(event)">
+	</div>
+
+	<div class ="intro_page"
+		 id = "p5"
+		 ontouchstart="handleTouchStart(event)"
+		 ontouchmove="handleTouchMove(event)"
+		 ontouchend="handleTouchEnd(event)">
+	</div>
+
+
+
+	<div class = "form"
+		 ontouchstart="handleTouchStart(event)"	
+		 ontouchmove="handleTouchMove(event)"
+		 ontouchend="handleTouchEnd(event)">
+		<ul class="tab-group">
+	        <li class="tab active"><a href="register.php">JOIN NOW</a></li>
+	        <li class="tab"><a href="login.php">SIGN IN</a></li>
+	    </ul>
+	</div>
+	<script src = "swipe.js"></script>
+</body>
+</html>
